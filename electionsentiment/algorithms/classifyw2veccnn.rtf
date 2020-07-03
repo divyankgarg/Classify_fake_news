@@ -1,0 +1,138 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 Using TensorFlow backend.\
+2019-04-30 03:01:54.087900: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA\
+Corpus size: 1159\
+Average tweet length: 9.114754098360656\
+Max tweet length: 29\
+WARNING:tensorflow:From /Users/shirishpandagare/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.\
+Instructions for updating:\
+Colocations handled automatically by placer.\
+WARNING:tensorflow:From /Users/shirishpandagare/anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.\
+Instructions for updating:\
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.\
+WARNING:tensorflow:From /Users/shirishpandagare/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.\
+Instructions for updating:\
+Use tf.cast instead.\
+Epoch 1/20\
+920/920 [==============================] - 3s 4ms/step - loss: 1.8182 - acc: 0.3522\
+Epoch 2/20\
+920/920 [==============================] - 1s 1ms/step - loss: 1.5800 - acc: 0.4348\
+Epoch 3/20\
+920/920 [==============================] - 1s 1ms/step - loss: 1.4321 - acc: 0.4989\
+Epoch 4/20\
+920/920 [==============================] - 1s 2ms/step - loss: 1.3142 - acc: 0.5500\
+Epoch 5/20\
+920/920 [==============================] - 1s 1ms/step - loss: 1.1499 - acc: 0.5880\
+Epoch 6/20\
+920/920 [==============================] - 1s 1ms/step - loss: 1.0369 - acc: 0.6413\
+Epoch 7/20\
+920/920 [==============================] - 1s 1ms/step - loss: 0.8834 - acc: 0.6957\
+Epoch 8/20\
+920/920 [==============================] - 1s 1ms/step - loss: 0.8280 - acc: 0.7196\
+Epoch 9/20\
+920/920 [==============================] - 1s 1ms/step - loss: 0.7297 - acc: 0.7543\
+Epoch 10/20\
+920/920 [==============================] - 1s 1ms/step - loss: 0.6336 - acc: 0.7913\
+Epoch 11/20\
+920/920 [==============================] - 1s 1ms/step - loss: 0.5895 - acc: 0.8043\
+Epoch 12/20\
+920/920 [==============================] - 1s 1ms/step - loss: 0.5299 - acc: 0.8141\
+Epoch 13/20\
+920/920 [==============================] - 1s 1ms/step - loss: 0.4797 - acc: 0.8435\
+Epoch 14/20\
+920/920 [==============================] - 1s 1ms/step - loss: 0.4703 - acc: 0.8326\
+Epoch 15/20\
+920/920 [==============================] - 1s 1ms/step - loss: 0.3710 - acc: 0.8772\
+Epoch 16/20\
+920/920 [==============================] - 1s 1ms/step - loss: 0.3485 - acc: 0.8837\
+Epoch 17/20\
+920/920 [==============================] - 1s 1ms/step - loss: 0.3039 - acc: 0.9098\
+Epoch 18/20\
+920/920 [==============================] - 1s 1ms/step - loss: 0.3483 - acc: 0.8793\
+Epoch 19/20\
+920/920 [==============================] - 1s 1ms/step - loss: 0.3145 - acc: 0.8902\
+Epoch 20/20\
+920/920 [==============================] - 1s 1ms/step - loss: 0.3124 - acc: 0.8913\
+[5, 2, 6, 2, 6, 1, 1, 2, 1, 5, 5, 6, 2, 5, 4, 2, 7, 5, 1, 2, 2, 4, 4, 2, 2, 0, 0, 1, 3, 2, 2, 6, 2, 2, 3, 0, 2, 2, 6, 2, 2, 7, 4, 5, 2, 2, 5, 1, 2, 2, 5, 7, 6, 2, 2, 2, 5, 5, 2, 2, 2, 5, 3, 6, 0, 1, 2, 3, 5, 6, 2, 5, 2, 2, 2, 2, 2, 2, 7, 7, 7, 2, 7, 2, 2, 5, 5, 3, 5, 5, 1, 2, 4, 6, 2, 5, 0, 1, 5, 7, 6, 3, 2, 6, 2, 3, 2, 2, 7, 7, 1, 2, 7, 4, 5, 2, 1, 2, 2, 7, 5, 5, 2, 5, 5, 0, 4, 2, 2, 5, 2, 7, 1, 2, 4, 2, 2, 5, 5, 2, 1, 7, 1, 2, 2, 5, 1, 1, 2, 3, 4, 5, 1, 3, 6, 5, 5, 2, 5, 3, 1, 5, 7, 2, 5, 5, 2, 6, 5, 2, 5, 2, 2, 5, 5, 5, 2, 5, 2, 6, 0, 1, 2, 5, 5, 0, 2, 3, 2, 1, 7, 2, 1, 2, 5, 3, 2, 2, 2, 5, 5, 6, 7, 3, 1, 5, 2, 2, 2, 6, 1, 6, 2, 2, 2, 5, 2, 4, 4, 2, 1, 2, 7, 0, 1, 2, 2, 2, 5, 2, 2, 1, 2, 2, 2, 5, 0, 2]\
+[[10  0  0  0  0  0  0  0]\
+ [ 1 19  2  0  0  1  2  1]\
+ [ 0  0 86  2  0  3  2  0]\
+ [ 0  1  3  9  0  0  0  0]\
+ [ 1  0  1  0  6  1  2  0]\
+ [ 1  0  4  1  0 40  3  1]\
+ [ 0  0  1  0  0  0 16  0]\
+ [ 0  0  0  0  0  0  1 17]]\
+Classify W2Vec CNN Precision = [0.76923077 0.95       0.88659794 0.75       1.         0.88888889\
+ 0.61538462 0.89473684]\
+Classify W2Vec CNN Recall= [1.         0.73076923 0.92473118 0.69230769 0.54545455 0.8\
+ 0.94117647 0.94444444]\
+Classify W2Vec CNN F1 Score = [0.86956522 0.82608696 0.90526316 0.72       0.70588235 0.84210526\
+ 0.74418605 0.91891892]\
+Log loss: 0.6125082483575193\
+Accuracy: 0.8529411764705882\
+Corpus size: 1149\
+Average tweet length: 8.930374238468234\
+Max tweet length: 29\
+Epoch 1/20\
+934/934 [==============================] - 3s 3ms/step - loss: 1.8063 - acc: 0.3362\
+Epoch 2/20\
+934/934 [==============================] - 1s 1ms/step - loss: 1.6047 - acc: 0.4154\
+Epoch 3/20\
+934/934 [==============================] - 1s 1ms/step - loss: 1.4534 - acc: 0.4625\
+Epoch 4/20\
+934/934 [==============================] - 1s 1ms/step - loss: 1.3019 - acc: 0.5385\
+Epoch 5/20\
+934/934 [==============================] - 1s 1ms/step - loss: 1.1441 - acc: 0.5867\
+Epoch 6/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.9840 - acc: 0.6542\
+Epoch 7/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.8847 - acc: 0.7013\
+Epoch 8/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.7656 - acc: 0.7430\
+Epoch 9/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.6873 - acc: 0.7559\
+Epoch 10/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.5930 - acc: 0.7966\
+Epoch 11/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.5502 - acc: 0.8094\
+Epoch 12/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.5175 - acc: 0.8308\
+Epoch 13/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.4825 - acc: 0.8448\
+Epoch 14/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.4326 - acc: 0.8490\
+Epoch 15/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.3715 - acc: 0.8790\
+Epoch 16/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.3488 - acc: 0.8897\
+Epoch 17/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.3196 - acc: 0.9004\
+Epoch 18/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.3484 - acc: 0.8876\
+Epoch 19/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.3515 - acc: 0.8844\
+Epoch 20/20\
+934/934 [==============================] - 1s 1ms/step - loss: 0.2753 - acc: 0.9176\
+[2, 2, 1, 5, 2, 7, 2, 6, 2, 2, 5, 2, 1, 5, 3, 2, 6, 2, 6, 1, 4, 2, 0, 6, 5, 1, 1, 4, 5, 2, 2, 2, 2, 2, 2, 4, 4, 5, 0, 0, 5, 2, 2, 2, 5, 5, 5, 6, 7, 6, 2, 3, 0, 5, 4, 2, 6, 2, 5, 2, 2, 2, 5, 2, 5, 2, 2, 2, 1, 5, 2, 5, 2, 6, 5, 2, 4, 2, 2, 2, 6, 3, 0, 2, 5, 2, 2, 5, 5, 5, 5, 5, 1, 1, 2, 0, 0, 2, 7, 2, 3, 5, 5, 6, 1, 2, 6, 2, 7, 2, 0, 2, 2, 2, 2, 5, 2, 5, 2, 2, 5, 2, 2, 1, 2, 5, 5, 6, 2, 2, 5, 5, 1, 5, 7, 2, 1, 1, 7, 5, 3, 5, 1, 2, 5, 5, 2, 0, 2, 2, 7, 5, 3, 5, 6, 4, 5, 7, 2, 1, 2, 2, 7, 5, 2, 5, 1, 5, 2, 2, 2, 2, 7, 5, 2, 1, 5, 2, 2, 1, 2, 2, 2, 6, 2, 2, 7, 1, 1, 5, 5, 7, 6, 5, 5, 5, 3, 2, 0, 7, 5, 6, 2, 2, 7, 1, 2, 6, 5, 5, 2, 2, 5, 5]\
+[[ 5  0  3  0  0  0  1  1]\
+ [ 1  8  5  0  0  2  5  0]\
+ [ 0  3 58  2  0 12  4  4]\
+ [ 0  3  2  2  0  0  0  0]\
+ [ 0  0  3  0  1  1  1  1]\
+ [ 3  2 14  1  1 30  3  1]\
+ [ 1  0  2  0  0  2 12  0]\
+ [ 4  1  4  2  0  1  0  2]]\
+Classify W2Vec CNN Precision = [0.35714286 0.47058824 0.63736264 0.28571429 0.5        0.625\
+ 0.46153846 0.22222222]\
+Classify W2Vec CNN Recall= [0.5        0.38095238 0.69879518 0.28571429 0.14285714 0.54545455\
+ 0.70588235 0.14285714]\
+Classify W2Vec CNN F1 Score = [0.41666667 0.42105263 0.66666667 0.28571429 0.22222222 0.58252427\
+ 0.55813953 0.17391304]\
+Log loss: 2.109998870033897\
+Accuracy: 0.5514018691588785}
